@@ -4,7 +4,7 @@ variable "location" {
 }
 
 resource "random_id" "cluster_name" {
-  byte_length = 5
+  byte_length = 6
 }
 
 locals {
